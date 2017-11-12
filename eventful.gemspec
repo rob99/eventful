@@ -12,7 +12,7 @@ Gem::Specification.new do |s|
 
   s.files = %w[README.rdoc History.txt] + Dir.glob("{lib,spec}/**/*.rb")
 
-  s.add_dependency "methodphitamine", "= 1.0.2"
+  s.add_dependency "methodphitamine", "= 1.0.1"
   s.add_development_dependency "rspec"
 end
 
